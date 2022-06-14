@@ -4,7 +4,7 @@ import pickle
 
 # Loading the saved Model
 loaded_model = pickle.load(
-    open('C:/Users/devProMaleek/ML WEB APP/trained_model.sav', 'rb'))
+    open('trained_model.sav', 'rb'))
 
 # Creating a function for Prediction
 
