@@ -1,6 +1,4 @@
-from matplotlib.pyplot import axes
 import numpy as np
-from pandas import DataFrame
 import streamlit as st
 import pickle
 
@@ -136,8 +134,7 @@ def Visualization():
     import pandas as pd
     import numpy as np
 
-    # Data Visualization Library 
-    import matplotlib
+    # Data Visualization Library
     import matplotlib.pyplot as plt
     import seaborn as sns
     
