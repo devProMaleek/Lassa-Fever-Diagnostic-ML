@@ -137,6 +137,7 @@ def Visualization():
     # Data Visualization Library
     import matplotlib.pyplot as plt
     import seaborn as sns
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     
     # Page Title
     st.title('Visualization Page 👋')
