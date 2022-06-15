@@ -162,6 +162,7 @@ def Visualization():
             with col1:
                 sns.countplot(x=column_name,hue='Lassa Fever',data=data, palette=palette)
                 st.pyplot()
+                st.write("Count of " + column_name)
             with col2:
                 data[column_name].value_counts().plot.pie(explode=[0.1,0.1],autopct='%1.1f%%',shadow=True)
                 plt.title(column_name);
